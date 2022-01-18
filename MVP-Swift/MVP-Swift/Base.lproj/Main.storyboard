@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MVP_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qFI-EY-c4E">
+                                <rect key="frame" x="36" y="84" width="342" height="250"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4hg-fy-Rql">
+                                        <rect key="frame" x="16" y="0.0" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="JNK-Z3-ybc"/>
+                                            <constraint firstAttribute="height" constant="100" id="Koh-gM-srz"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <state key="normal" image="halkbankApp"/>
+                                        <connections>
+                                            <action selector="halkbankButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VIz-nk-aQ8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NRs-Tw-ONh">
+                                        <rect key="frame" x="16" y="110" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="Eh8-cw-Ae0"/>
+                                            <constraint firstAttribute="height" constant="100" id="kQa-Rm-256"/>
+                                        </constraints>
+                                        <state key="normal" image="akbankApp"/>
+                                        <connections>
+                                            <action selector="akbankButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fKi-dg-cZl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oG9-ai-qBo">
+                                        <rect key="frame" x="121" y="0.0" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="cw3-Wv-tBI"/>
+                                            <constraint firstAttribute="height" constant="100" id="iyn-Xz-5QN"/>
+                                        </constraints>
+                                        <state key="normal" image="vakifApp"/>
+                                        <connections>
+                                            <action selector="vakifbankButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lKW-7o-Fp5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k4w-dR-ZFn">
+                                        <rect key="frame" x="226" y="0.0" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="WCi-Ka-9Fn"/>
+                                            <constraint firstAttribute="height" constant="100" id="p8e-V6-20A"/>
+                                        </constraints>
+                                        <state key="normal" image="isBankasiLogo"/>
+                                        <connections>
+                                            <action selector="isbankasiButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y71-qm-w1E"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wat-BT-ryT">
+                                        <rect key="frame" x="121" y="110" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="FSN-Na-IlS"/>
+                                            <constraint firstAttribute="width" constant="100" id="kca-l4-gVC"/>
+                                        </constraints>
+                                        <state key="normal" image="garantiLogo"/>
+                                        <connections>
+                                            <action selector="garantibankasiButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qyy-Vv-1gc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Yp-sz-76d">
+                                        <rect key="frame" x="226" y="110" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="T2e-iP-hDh"/>
+                                            <constraint firstAttribute="height" constant="100" id="bFE-ls-FDP"/>
+                                        </constraints>
+                                        <state key="normal" image="ziraatApp"/>
+                                        <connections>
+                                            <action selector="ziraatbankasiButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AOw-bV-Acl"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="0VD-Ei-RgX"/>
+                                    <constraint firstItem="oG9-ai-qBo" firstAttribute="leading" secondItem="4hg-fy-Rql" secondAttribute="trailing" constant="5" id="4bY-u8-4WA"/>
+                                    <constraint firstAttribute="trailing" secondItem="k4w-dR-ZFn" secondAttribute="trailing" constant="16" id="5Q5-sH-A9T"/>
+                                    <constraint firstItem="NRs-Tw-ONh" firstAttribute="top" secondItem="4hg-fy-Rql" secondAttribute="bottom" constant="10" id="9iH-Ak-DZR"/>
+                                    <constraint firstItem="oG9-ai-qBo" firstAttribute="top" secondItem="qFI-EY-c4E" secondAttribute="top" id="ERQ-kU-AYX"/>
+                                    <constraint firstAttribute="trailing" secondItem="7Yp-sz-76d" secondAttribute="trailing" constant="16" id="I0n-yc-JaF"/>
+                                    <constraint firstItem="Wat-BT-ryT" firstAttribute="top" secondItem="oG9-ai-qBo" secondAttribute="bottom" constant="10" id="SON-Ws-ofH"/>
+                                    <constraint firstItem="4hg-fy-Rql" firstAttribute="leading" secondItem="qFI-EY-c4E" secondAttribute="leading" constant="16" id="Ws5-SM-I2R"/>
+                                    <constraint firstItem="4hg-fy-Rql" firstAttribute="top" secondItem="qFI-EY-c4E" secondAttribute="top" id="bwD-nh-5Gn"/>
+                                    <constraint firstItem="NRs-Tw-ONh" firstAttribute="leading" secondItem="qFI-EY-c4E" secondAttribute="leading" constant="16" id="ePd-oC-T5N"/>
+                                    <constraint firstItem="k4w-dR-ZFn" firstAttribute="top" secondItem="qFI-EY-c4E" secondAttribute="top" id="iSo-nE-59c"/>
+                                    <constraint firstItem="k4w-dR-ZFn" firstAttribute="leading" secondItem="oG9-ai-qBo" secondAttribute="trailing" constant="5" id="lRT-h5-4Se"/>
+                                    <constraint firstItem="Wat-BT-ryT" firstAttribute="leading" secondItem="NRs-Tw-ONh" secondAttribute="trailing" constant="5" id="oYr-ac-Zx0"/>
+                                    <constraint firstItem="7Yp-sz-76d" firstAttribute="top" secondItem="k4w-dR-ZFn" secondAttribute="bottom" constant="10" id="r7O-m3-65Q"/>
+                                    <constraint firstItem="7Yp-sz-76d" firstAttribute="leading" secondItem="Wat-BT-ryT" secondAttribute="trailing" constant="5" id="s9W-eq-cTY"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ei-xh-3Xn">
+                                <rect key="frame" x="25" y="344" width="364" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="5x4-3z-3Im"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9ei-xh-3Xn" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="1wJ-fx-54t"/>
+                            <constraint firstItem="qFI-EY-c4E" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5DG-E7-LYK"/>
+                            <constraint firstItem="9ei-xh-3Xn" firstAttribute="top" secondItem="qFI-EY-c4E" secondAttribute="bottom" constant="10" id="DOi-rW-40U"/>
+                            <constraint firstItem="qFI-EY-c4E" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="R9Y-R8-KJO"/>
+                            <constraint firstItem="9ei-xh-3Xn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="T7w-kF-CCE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9ei-xh-3Xn" secondAttribute="trailing" constant="25" id="jbS-Pv-NyH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bankNameLabel" destination="9ei-xh-3Xn" id="ace-MQ-sVG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="69.565217391304358" y="61.607142857142854"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="akbankApp" width="512" height="512"/>
+        <image name="garantiLogo" width="512" height="512"/>
+        <image name="halkbankApp" width="512" height="512"/>
+        <image name="isBankasiLogo" width="512" height="512"/>
+        <image name="vakifApp" width="512" height="512"/>
+        <image name="ziraatApp" width="512" height="512"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
